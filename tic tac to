@@ -63,6 +63,7 @@ int checkWin(){
 void main(){
     int player=1,input,status=-1;
     printBoard();
+    system("color 80");
    
 
     while (status==-1)
