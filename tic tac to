@@ -2,8 +2,8 @@
 #include <conio.h>
 	char board[]={'0','1','2','3','4','5','6','7','8','9'};
 void printBoard();
+void system();
 void printBoard(){
-
     system("cls");
     printf("\n\n");
     printf("=== TIC TAC TOE ===\n\n");
@@ -59,9 +59,6 @@ int checkWin(){
     }
     return -1;
 }
-void system();
-
-
 
 void main(){
     int player=1,input,status=-1;
